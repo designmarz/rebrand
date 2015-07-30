@@ -3,7 +3,7 @@
 .dark-primary-color    { background: #0288D1; }
 .default-primary-color { background: #03A9F4; }
 .light-primary-color   { background: #B3E5FC; }
-.text-primary-color    { color: #FFFFFF; }
+.text-primary-color    { color: #B3E5FC; }
 .accent-color          { background: #FF4081; }
 .primary-text-color    { color: #212121; }
 .secondary-text-color  { color: #727272; }
@@ -16,12 +16,12 @@
 }
 
 #frontPage {
-    height: 100vw;
+    min-height: 100vw;
 }
 
 #profilePic {
-    /*width: 300px;*/
-    /*height: 300px;*/
+    width: 300px;
+    height: 300px;
     border-radius: 500px;
 }
 
