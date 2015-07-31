@@ -1,3 +1,8 @@
+body {
+	font-family: "Roboto", "Helvetica Neue", Helvetica, Arial;
+}
+
+
 /* Material Palette - light-blue/pink */
 
 .dark-primary-color    { background: #0288D1; }
@@ -20,9 +25,10 @@
 }
 
 #profilePic {
-    width: 300px;
-    height: 300px;
+    /*width: 300px;*/
+    /*height: 300px;*/
     border-radius: 500px;
+    border: 15px solid #FF4081;
 }
 
 .img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
