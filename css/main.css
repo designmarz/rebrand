@@ -37,9 +37,21 @@ body {
 #profilePic {
     /*width: 300px;*/
     /*height: 300px;*/
-    border-radius: 500px;
+    border-radius: 50%;
     border: 5px solid #FF4081;
 }
+
+.skillsSections {
+    /*border-radius: 50%;*/
+    /*border: 5px solid #FF4081;*/
+    /*background-image: url(../img/IMG_2166.jpg);*/
+    /*background-size: cover;*/
+    /*width: 100%*/
+    /*min-width: 200px;*/
+    /*height: 100%;*/
+    /*min-height: 200px; */
+}
+
 
 .img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
     display: block;
