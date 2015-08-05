@@ -51,19 +51,32 @@ $(document).ready(function() {
 					label: "I'll master it one day!"
 				}];				
 
-
+// var myDoughnutChart = new Chart(ctx).Doughnut(data, {
+//     onAnimationComplete: function() {
+//         ctx.fillText(data[0].value + "%", 100 - 20, 100, 200);
+//     }
+// });
 
 
 
   	var ctx = document.getElementById("myChart").getContext("2d");
-	var myNewChart = new Chart(ctx).Doughnut(data);
+  	var ctx1 = document.getElementById("myChart1").getContext("2d");
+  	var ctx2 = document.getElementById("myChart2").getContext("2d");
+  	var ctx3 = document.getElementById("myChart3").getContext("2d");
 
-	var ctx1 = document.getElementById("myChart1").getContext("2d");
-	var myNewChart = new Chart(ctx1).Doughnut(data1);
+	myNewChart = new Chart(ctx).Doughnut(data, {
+    onAnimationComplete: function() {
+        ctx.fillText(data[0].value + "%", 100 - 20, 100, 200);
+    	}
+	});
 
-	var ctx2 = document.getElementById("myChart2").getContext("2d");
-	var myNewChart = new Chart(ctx2).Doughnut(data2);
 
-	var ctx3 = document.getElementById("myChart3").getContext("2d");
-	var myNewChart = new Chart(ctx3).Doughnut(data3);
+
+	var myNewChart1 = new Chart(ctx1).Doughnut(data1);
+
+	
+	var myNewChart2 = new Chart(ctx2).Doughnut(data2);
+
+	
+	var myNewChart3 = new Chart(ctx3).Doughnut(data3);
 });
