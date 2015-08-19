@@ -1,7 +1,8 @@
 $(document).ready(function() {
+  	
+// Skills Chart JavaScript //
   	Chart.defaults.global.responsive = true;
   	Chart.defaults.global.showTooltips = false;
-
 
   	var data = [{
 					value: 200,
@@ -57,8 +58,6 @@ $(document).ready(function() {
 //     }
 // });
 
-
-
   	var ctx = document.getElementById("myChart").getContext("2d");
   	var ctx1 = document.getElementById("myChart1").getContext("2d");
   	var ctx2 = document.getElementById("myChart2").getContext("2d");
@@ -70,13 +69,12 @@ $(document).ready(function() {
     	}
 	});
 
-
-
 	var myNewChart1 = new Chart(ctx1).Doughnut(data1);
 
-	
 	var myNewChart2 = new Chart(ctx2).Doughnut(data2);
-
 	
 	var myNewChart3 = new Chart(ctx3).Doughnut(data3);
+
+
+// Skills Chart JavaScript //
 });
