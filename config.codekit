@@ -162,7 +162,7 @@
 		},
 	"\/index.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -290,6 +290,24 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/kits\/_about.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kits\/_about.kit",
+		"outputAbbreviatedPath": "\/kits\/_about.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kits\/_contact.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kits\/_contact.kit",
+		"outputAbbreviatedPath": "\/kits\/_contact.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/kits\/_footer.kit": {
 		"fileType": 2048,
 		"ignore": 1,
@@ -308,14 +326,50 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/kits\/_landing-page.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kits\/_landing-page.kit",
+		"outputAbbreviatedPath": "\/kits\/_landing-page.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kits\/_navbar.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kits\/_navbar.kit",
+		"outputAbbreviatedPath": "\/kits\/_navbar.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kits\/_skills.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kits\/_skills.kit",
+		"outputAbbreviatedPath": "\/kits\/_skills.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kits\/_work.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kits\/_work.kit",
+		"outputAbbreviatedPath": "\/kits\/_work.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/kits\/index.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kits\/index.kit",
-		"outputAbbreviatedPath": "\/kits\/index.html",
+		"outputAbbreviatedPath": "\/index.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 1
 		},
 	"\/README.md": {
 		"criticStyle": 0,
